@@ -61,7 +61,7 @@ return [
     /*
      * When set to true, an exception will be thrown when the last attempt fails
      */
-    'throw_exception_on_failure' => false,
+    'throw_exception_on_failure' => true,
 
     /*
      * When using Laravel Horizon you can specify tags that should be used on the

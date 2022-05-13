@@ -29,7 +29,7 @@ class RegisterEventHandler
     {
         logger($event->user);
         WebhookCall::create()
-        ->url('http://127.0.0.1:8001/webhooks')
+        ->url('http://127.0.0.1:4000')
         ->useSecret(env('WEBHOOK_SECRET_KEY'))
         ->payload(["user"=>$event->user])
         ->dispatch();

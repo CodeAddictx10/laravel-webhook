@@ -22,7 +22,7 @@ class WebhookCallSucceededEventHandler
     /**
      * Handle the event.
      *
-     * @param  \Spatie\WebhookServer\Events\WebhookCallSucceededEvent  $event
+     * @param WebhookCallSucceededEvent  $event
      * @return void
      */
     public function handle(WebhookCallSucceededEvent $event)
